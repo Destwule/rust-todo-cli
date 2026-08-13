@@ -77,7 +77,7 @@ impl Todo {
     self.status = Status::Pending
   }
 }
-// TODO: add save mechanism for when task status is updated
+
 impl TodoList {
   pub fn new(path: Option<PathBuf>) -> Self {
     // path is an Option so that if it is None then the default behaviour
